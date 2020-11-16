@@ -1,7 +1,7 @@
 
 
 <a href="#">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=PieKing1215&theme=onedark&hide=prs&show_icons=true&hide_rank=true&count_private=true" />&nbsp;&nbsp;
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=PieKing1215&theme=onedark&hide=prs&show_icons=true&hide_rank=true&count_private=true" />&nbsp;
 </a>
 <a href="#">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PieKing1215&layout=compact&theme=onedark&langs_count=6" />
@@ -10,7 +10,7 @@
 ## Current main projects
 
 <a href="https://github.com/PieKing1215/FallingSandSurvival">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=PieKing1215&repo=FallingSandSurvival&theme=onedark" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=PieKing1215&repo=FallingSandSurvival&theme=onedark" />&nbsp;&nbsp;
 </a>
 <a href="https://github.com/PieKing1215/InvMove">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=PieKing1215&repo=InvMove&theme=onedark" />
