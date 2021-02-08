@@ -10,8 +10,8 @@
 ## Current main projects
 
 <a href="https://github.com/PieKing1215/FallingSandSurvival">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=PieKing1215&repo=FallingSandSurvival&theme=onedark" />&nbsp;&nbsp;
-</a>
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=PieKing1215&repo=FallingSandSurvival&theme=onedark" />
+</a>&nbsp;&nbsp;
 <a href="https://github.com/PieKing1215/InvMove">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=PieKing1215&repo=InvMove&theme=onedark" />
 </a>
