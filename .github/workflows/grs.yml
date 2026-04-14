@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
       - name: Generate stats
-        uses: UlyssesZh/grs-action@7d6d316976be5912ac850de0d88a34364a144d44 # v0.2.5
+        uses: stats-organization/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2 # v1.1.0
         id: generate
         with:
           card: stats
@@ -34,12 +34,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
       - name: Generate stats
-        uses: UlyssesZh/grs-action@7d6d316976be5912ac850de0d88a34364a144d44 # v0.2.5
+        uses: stats-organization/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2 # v1.1.0
         id: generate
         with:
           options: username=${{ github.repository_owner }}&layout=compact&theme=onedark&langs_count=6
           path: grs/langs.svg
-          card: langs
+          card: top-langs
       - name: Upload langs
         uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
         with:
