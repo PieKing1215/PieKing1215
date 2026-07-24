@@ -16,12 +16,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
       - name: Generate stats
-        uses: stats-organization/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2 # v1.1.0
+        uses: stats-organization/github-readme-stats-action@7d001ba01225de086e79147f8274b2d2569874d1 # main
         id: generate
         with:
           card: stats
           options: username=${{ github.repository_owner }}&theme=onedark&hide=prs&show_icons=true&hide_rank=true&count_private=true
           path: grs/stats.svg
+          fail_on_error: true
       - name: Upload stats
         uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
         with:
@@ -34,12 +35,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
       - name: Generate stats
-        uses: stats-organization/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2 # v1.1.0
+        uses: stats-organization/github-readme-stats-action@7d001ba01225de086e79147f8274b2d2569874d1 # main
         id: generate
         with:
           options: username=${{ github.repository_owner }}&layout=compact&theme=onedark&langs_count=6
           path: grs/langs.svg
           card: top-langs
+          fail_on_error: true
       - name: Upload langs
         uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
         with:
