@@ -11,6 +11,8 @@ on:
 jobs:
   generate-stats:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     name: Generate stats cards
     steps:
       - name: Checkout
@@ -23,6 +25,7 @@ jobs:
           options: username=${{ github.repository_owner }}&theme=onedark&hide=prs&show_icons=true&hide_rank=true&count_private=true
           path: grs/stats.svg
           fail_on_error: true
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Upload stats
         uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
         with:
@@ -30,6 +33,8 @@ jobs:
           path: grs
   generate-langs:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     name: Generate top language cards
     steps:
       - name: Checkout
@@ -42,6 +47,7 @@ jobs:
           path: grs/langs.svg
           card: top-langs
           fail_on_error: true
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Upload langs
         uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
         with:
